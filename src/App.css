@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+.wrapper{
+    width: 100%;
+    margin: auto;
+    padding: 0 20px;
+    max-width: 67.5rem;
+}
+
+.brand-logos{
+  padding:  0 0 3rem;
+}
+
+.brand-logos ul.grid-4{
+  grid-gap:0px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.brand-logos ul.grid-4 a{
+  position: relative;
+  display: block;
+  cursor: default;
+  transition: all 0.2s ease-out;
+}
+.brand-logos img{
+    opacity: 0.35;
+    transition: all 0.2s ease-out;
+}
+
+
+.brand-logos ul.grid-4 p, .brand-logos ul.grid-4 a:hover ul{
+  position: absolute;
+  bottom: 3rem;
+  padding: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  opacity: 0;
+  font-size: 1rem;
+  transform: translateY(3rem);
+  color: #7D7D7D;
+  transition: all 0.2s ease-out;
+}

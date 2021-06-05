@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.sn-student-quote:nth-child(9n+1):hover .sn-student-avatar {
+  background: #00E599;
+  box-shadow: 0 0 0 8px #00E599;
+}
+
+.sn-student-quote .sn-student{
+    padding: 0;
+    margin: 0 0 6rem;
+    width: auto;
+    position: relative;
+    z-index: 2;
+    padding: 0;
+    transition: all 0.2s ease-out;
+    color: #7D7D7D;
+}
+
+
+p{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 500;
+    max-width: 38rem;
+}
+
+
+
+.sn-student-quote {
+    padding: 5rem;
+    margin: 0 0 6rem;
+    width: auto;
+    position: relative;
+    z-index: 2;
+    transition: all 0.2s ease-out;
+  }
+
+.sn-student-quote .sn-student-info p.sn-quote-name, .sn-student-quote .sn-student-info ul.sn-quote-name, .sn-student-quote .sn-student-info ol.sn-q
+{
+    color: white;
+    line-height: 100%;
+    padding-bottom: 0.125rem !important;
+    padding-top: 0;
+}
+
+
+.sn-student-quote .sn-student-info p.sn-quote-name, .sn-student-quote .sn-student-info ul.sn-quote-name, .sn-student-quote .sn-student-info ol.sn-quote-name, .sn-student-quote .sn-student-info p.sn-quote-title, .sn-student-quote .sn-student-info ul.sn-quote-title, .sn-student-quote .sn-student-info ol.sn-quote-title {
+    font-size: 0.875em;
+    text-transform: uppercase;
+    display: block;
+}
+
+.sn-student-quote .sn-student-avatar img {
+    border-radius: 50%;
+}
+img {
+    width: 100%;
+}
+
+.sn-student-quote p em, .sn-student-quote ul em, .sn-student-quote ol em {
+    color: #111;
+    font-weight: 600;
+    padding: 0 0.25rem;
+  }
+.sn-student-quote:hover {
+    transition: all 0.2s ease-out;
+  }
+  .sn-student-quote:hover p, .sn-student-quote:hover ul, .sn-student-quote:hover ol {
+    color: white;
+    transition: all 0.2s ease-out;
+  }
+  .sn-student-quote:hover .sn-student-avatar {
+    transition: all 0.2s ease-out;
+  }
+  .sn-student-quote:hover .sn-student-avatar img {
+    mix-blend-mode: luminosity;
+    transition: all 0.2s ease-out;
+  }
+  .sn-student-quote p, .sn-student-quote ul, .sn-student-quote ol {
+    color: #7D7D7D;
+    font-size: 1.25rem;
+    line-height: 120%;
+    display: inline-block;
+    padding-bottom: 1.5rem;
+    font-style: italic;
+    position: relative;
+    z-index: 2;
+    transition: all 0.2s ease-out;
+  }
+
+  .sn-student-quote .sn-student-avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 8px;
+    box-shadow: 0 0 0 8px #181818;
+    transition: all 0.2s ease-out;
+  }
+  .sn-student-quote .sn-student-avatar img {
+    border-radius: 50%;
+  }
+
+  .sn-student-quote .sn-student-info {
+    text-align: left;
+    align-self: center;
+  }
+
+.sn-student-quote .sn-student-info p.sn-quote-name, .sn-student-quote .sn-student-info ul.sn-quote-name, .sn-student-quote .sn-student-info ol.sn-quote-name,
+.sn-student-quote .sn-student-info p.sn-quote-title,
+.sn-student-quote .sn-student-info ul.sn-quote-title,
+.sn-student-quote .sn-student-info ol.sn-quote-title {
+  font-size: 0.875em;
+  text-transform: uppercase;
+  display: block;
+}
+
+
+
+
+/*Generation of Random Emojis */
+
+.smiley{
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='44' height='53' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>😀</text></svg>") 16 0,auto; 
+  /*!emojicursor.app*/
+}
+
+
+.fire{
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='44' height='53' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>🔥</text></svg>") 16 0,auto; 
+  /*!emojicursor.app*/
+}
+
+
+.heart{
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='44' height='53' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>❤️</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+.beer{
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='44' height='53' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>🍺</text></svg>") 16 0,auto; /*!emojicursor.app*/
+
+}
+
+.star{
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='44' height='53' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>🌟</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+.hundred{
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='44' height='53' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>💯</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+.thumbsup{
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='44' height='53' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>👍</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+
